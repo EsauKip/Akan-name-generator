@@ -15,3 +15,13 @@ body {
     background-color: green;
     margin-right: 150px;
 }
+
+#akan p {
+    color: red;
+}
+
+.ck {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: red;
+}
