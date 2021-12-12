@@ -6,6 +6,13 @@ body {
     font-size: 20px;
 }
 
+.myForm {
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px;
+    margin-right: 700px;
+    margin-left: 250px;
+}
+
 #akan {
     color: yellow;
     float: right;
