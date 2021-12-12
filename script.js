@@ -8,4 +8,7 @@ btnclick.addEventListener("click", function() {
             }
             if ((m <= 0) || (m > 12)) {
                 alert("invalid month,please input again");
-            }
+            } //calculates the day
+            let y = parseInt(document.getElementById("year").value);
+            c = Math.round(((y / 100) + 1));
+            var theday = (((c / 4) - 2 * c - 1) + ((5 * y / 4)) + ((26 * (m + 1) / 10)) + d) % 7;
